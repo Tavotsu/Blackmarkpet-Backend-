@@ -1,7 +1,10 @@
 package com.blackmarkpet.restapi.dto;
 
+import jakarta.validation.constraints.Email;
+
 public class UsuarioDTO {
     
+    @Email(message = "El formato del email no es válido")
     private String email;
     
     private String password;
