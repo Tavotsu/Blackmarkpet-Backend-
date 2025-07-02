@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://black-markpet-frontend.vercel.app/")
 public class EstadisticasController {
 
     @Autowired

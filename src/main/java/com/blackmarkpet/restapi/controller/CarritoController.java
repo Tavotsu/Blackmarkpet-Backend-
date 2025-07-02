@@ -1,6 +1,6 @@
 package com.blackmarkpet.restapi.controller;
 
-import com.blackmarkpet.restapi.dto.AgregarItemRequestDTO; // ¡Importante! Importamos el nuevo DTO.
+import com.blackmarkpet.restapi.dto.AgregarItemRequestDTO; 
 import com.blackmarkpet.restapi.dto.ItemCarritoDTO;
 import com.blackmarkpet.restapi.dto.ProductoDTO;
 import com.blackmarkpet.restapi.model.Carrito;
@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/carrito")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://black-markpet-frontend.vercel.app/")
 public class CarritoController {
 
     @Autowired

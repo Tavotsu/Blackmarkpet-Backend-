@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/usuarios")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://black-markpet-frontend.vercel.app/")
 public class UsuarioController {
 
     @Autowired

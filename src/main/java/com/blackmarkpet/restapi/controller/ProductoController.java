@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://black-markpet-frontend.vercel.app/")
 public class ProductoController {
 
     
